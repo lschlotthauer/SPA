@@ -52,8 +52,25 @@ function getRss(){
             alert('Unable to load feed, Incorrect path or invalid feed');
         },
         success: function(xml){
-            values = xml.responseData.feed.entries;
-            console.log(values);
+            for(var i = 0; i < xml.responseData.feed.entries.length; i++){
+                var entry = xml.responseData.feed.entries[i];   
+                
+
+
+                var noticia = {
+                    item: entry.item,
+                    titulo: entry.title,
+                    link: entry.link,
+                    description: entry.description,
+                    category: entry.category,
+                    pubDate: entry.pubDate,
+                    thumbnail: entry.thumbnail,
+                    enclosure: entry.enclosure
+                };
+                console.log(noticia);
+            } 
+            //values = xml.responseData.feed.entries;
+            //console.log(values);
         }
     });
     });
