@@ -43,7 +43,7 @@
 
 function getRss(){
    $(function(){
-        url = 'http://rss.cnn.com/rss/edition.rss';
+        url = 'http://www.clarin.com/rss/deportes/futbol/';
         $.ajax({
         type: "GET",
         url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=1000&callback=?&q=' + encodeURIComponent(url),
@@ -54,23 +54,18 @@ function getRss(){
         success: function(xml){
             for(var i = 0; i < xml.responseData.feed.entries.length; i++){
                 var entry = xml.responseData.feed.entries[i];   
-                
-
 
                 var noticia = {
-                    item: entry.item,
-                    titulo: entry.title,
+                    title: entry.title,
                     link: entry.link,
                     description: entry.description,
-                    category: entry.category,
                     pubDate: entry.pubDate,
-                    thumbnail: entry.thumbnail,
+                    creator: entry.creator,
                     enclosure: entry.enclosure
                 };
                 console.log(noticia);
             } 
-            //values = xml.responseData.feed.entries;
-            //console.log(values);
+
         }
     });
     });
