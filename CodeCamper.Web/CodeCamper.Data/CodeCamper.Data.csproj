@@ -48,7 +48,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeCamperDbContext.cs" />
+    <Compile Include="Configuration\AttendanceConfiguration.cs" />
+    <Compile Include="Configuration\SessionConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleData\CodeCamperDatabaseInitializer.cs" />
+    <Compile Include="SampleData\PeopleNames.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SampleData\RandomSelector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SampleData\SampleTextGenerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SampleData\SampleTrack.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SampleData\TagsGenerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SampleData\TheChosen.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodeCamper.Model\CodeCamper.Model.csproj">
@@ -58,6 +80,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FakesAssemblies\NLipsum.Core.Fakes.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

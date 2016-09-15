@@ -1,11 +1,1 @@
-C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data\bin\Debug\CodeCamper.Data.dll
-C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data\bin\Debug\CodeCamper.Data.pdb
-C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data\bin\Debug\CodeCamper.Model.dll
-C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data\bin\Debug\CodeCamper.Model.pdb
 C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data\obj\Debug\CodeCamper.Data.csprojResolveAssemblyReference.cache
-C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data\obj\Debug\CodeCamper.Data.dll
-C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data\obj\Debug\CodeCamper.Data.pdb
-C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data\bin\Debug\EntityFramework.dll
-C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data\bin\Debug\EntityFramework.SqlServer.dll
-C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data\bin\Debug\EntityFramework.xml
-C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data\bin\Debug\EntityFramework.SqlServer.xml
