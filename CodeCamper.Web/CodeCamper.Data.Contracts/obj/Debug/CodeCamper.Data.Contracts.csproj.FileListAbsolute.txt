@@ -1,0 +1,7 @@
+C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data.Contracts\bin\Debug\CodeCamper.Data.Contracts.dll
+C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data.Contracts\bin\Debug\CodeCamper.Data.Contracts.pdb
+C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data.Contracts\bin\Debug\CodeCamper.Model.dll
+C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data.Contracts\bin\Debug\CodeCamper.Model.pdb
+C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data.Contracts\obj\Debug\CodeCamper.Data.Contracts.csprojResolveAssemblyReference.cache
+C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data.Contracts\obj\Debug\CodeCamper.Data.Contracts.dll
+C:\GitLucas\SPA\CodeCamper.Web\CodeCamper.Data.Contracts\obj\Debug\CodeCamper.Data.Contracts.pdb
